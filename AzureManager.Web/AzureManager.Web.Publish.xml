@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="hal.tomasmcguinness.com" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="AzureManager" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="True" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="AzureManager_Hal" publishMethod="MSDeploy" replaceMatchingFiles="True" userName="administrator" savePWD="True" userPWD="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAo2j6vryRm02hwFDlb4fskQAAAAACAAAAAAADZgAAwAAAABAAAAC37vIwINAZ9Oqeh0OwuNYOAAAAAASAAACgAAAAEAAAAJTpSbkzrOCFCzgK9ylLJUcYAAAAaARCGjblZpIcOfY/MZa9pZHNUEo9nVxIFAAAAGM6+dq7pNtFQjWpofQf4FdnkFvB" SelectedForPublish="True" />
+</publishData>

@@ -1,0 +1,25 @@
+﻿@model AzureManager.Web.Models.DeviceRegistration
+@{
+	ViewBag.Title = "Information";
+}
+<h2>
+	Information to send to your device</h2>
+@using (Html.BeginForm("Information", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+	<div style="margin-bottom: 50px">
+		@Html.HiddenFor(m => m.Id)
+		@Html.HiddenFor(m => m.DevicePin)
+		@Html.LabelFor(m => m.SubscriptionId)
+		@Html.TextBoxFor(m => m.SubscriptionId)
+		<br />
+		<br />
+		<label>
+			Certification File</label>
+		<input name="certificateFile" type="file" />
+	</div>
+	<p>
+		<button type="submit">
+			Send information</button>
+		@Html.ActionLink("cancel", "Index")
+	</p>
+}

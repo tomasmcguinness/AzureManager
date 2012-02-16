@@ -1,0 +1,60 @@
+﻿@model AzureManager.Web.Models.RegistrationCheck
+@{
+    ViewBag.Title = "Index";
+}
+<script type="text/javascript">
+    $().ready(function () {
+        $("input:first").focus();
+        $("input:first").select();
+    });
+
+    function nextField(sender) {
+        if (event.keyCode == 9 || event.keyCode == 8 || event.keyCode == 46 || event.keyCode == 16) {
+            return true;
+        }
+
+        var $selectedInput = $(sender);
+        var inputs = $("#pinDiv").find("input:text");
+        $input = inputs.eq(inputs.index($selectedInput) + 1);
+        $input.focus();
+        return true;
+    }
+
+    function selectText(sender) {
+        $(sender).select();
+    }
+
+</script>
+<style type="text/css">
+    input[type=text]
+    {
+        float: left;
+        width: 30px;
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        margin: 2px;
+    }
+</style>
+<h2>
+    Registration Page</h2>
+<p>
+    Please enter the six digit code displayed on your deivce. We will validate this
+    code. You can then enter your subscription information and select the management
+    certificate you wish to use. This information will then be pushed to your mobile
+    device automatically.</p>
+@using (Html.BeginForm())
+{
+    <div id="pinDiv" style="width: 500px; height: 100px; margin-left: auto; margin-right: auto;">
+        @Html.TextBoxFor(m => m.PinDigit1, new { onkeyup = "return nextField(this);", onfocus = "selectText(this)" })
+        @Html.TextBoxFor(m => m.PinDigit2, new { onkeyup = "return nextField(this);", onfocus = "selectText(this)" })
+        @Html.TextBoxFor(m => m.PinDigit3, new { onkeyup = "return nextField(this);", onfocus = "selectText(this)" })
+        @Html.TextBoxFor(m => m.PinDigit4, new { onkeyup = "return nextField(this);", onfocus = "selectText(this)" })
+        @Html.TextBoxFor(m => m.PinDigit5, new { onkeyup = "return nextField(this);", onfocus = "selectText(this)" })
+        @Html.TextBoxFor(m => m.PinDigit6, new { onkeyup = "return nextField(this);", onfocus = "selectText(this)" })
+    </div>
+    <div style="clear: both; height: 0px;">
+        &nbsp;</div>
+    <button type="submit">
+        Check Code</button>
+}

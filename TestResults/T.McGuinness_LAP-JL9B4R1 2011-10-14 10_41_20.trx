@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b8de3ab3-5e13-4860-98e4-81a1575b2cbf" name="T.McGuinness@LAP-JL9B4R1 2011-10-14 10:41:20" runUser="RESILIENTPLC\T.McGuinness" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="35af4368-8c28-4d67-b7fe-18bc67a282de">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="T.McGuinness_LAP-JL9B4R1 2011-10-14 10_41_20">
+      <DeploymentItem filename="C:\Development\Personal\Azure Manager\AzureManager\AzureManager.Web\bin\AzureManager.Web.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-10-14T10:41:20.6580993+01:00" queuing="2011-10-14T10:41:20.8920993+01:00" start="2011-10-14T10:41:20.9232993+01:00" finish="2011-10-14T10:41:21.4068993+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="PinGeneration" storage="c:\development\personal\azure manager\azuremanager\azuremanager.web.tests\bin\debug\azuremanager.web.tests.dll" id="ae1da6e9-d980-d810-de57-ba9ee7999b93">
+      <Execution id="df471a76-b6ff-4b0f-91b9-7af48fe3eea6" />
+      <TestMethod codeBase="C:/Development/Personal/Azure Manager/AzureManager/AzureManager.Web.Tests/bin/Debug/AzureManager.Web.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AzureManager.Web.Tests.PinGenerationTests, AzureManager.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PinGeneration" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ae1da6e9-d980-d810-de57-ba9ee7999b93" executionId="df471a76-b6ff-4b0f-91b9-7af48fe3eea6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="df471a76-b6ff-4b0f-91b9-7af48fe3eea6" testId="ae1da6e9-d980-d810-de57-ba9ee7999b93" testName="PinGeneration" computerName="LAP-JL9B4R1" duration="00:00:00.0448171" startTime="2011-10-14T10:41:20.9232993+01:00" endTime="2011-10-14T10:41:21.3600993+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="df471a76-b6ff-4b0f-91b9-7af48fe3eea6">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Duplication pin found</Message>
+          <StackTrace>   at AzureManager.Web.Tests.PinGenerationTests.PinGeneration() in C:\Development\Personal\Azure Manager\AzureManager\AzureManager.Web.Tests\PinGenerationTests.cs:line 26
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

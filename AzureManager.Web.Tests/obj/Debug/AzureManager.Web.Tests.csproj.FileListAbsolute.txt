@@ -1,0 +1,11 @@
+C:\Development\Personal\Azure Manager\AzureManager\AzureManager.Web.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Personal\Azure Manager\AzureManager\AzureManager.Web.Tests\bin\Debug\AzureManager.Web.Tests.dll
+C:\Development\Personal\Azure Manager\AzureManager\AzureManager.Web.Tests\bin\Debug\AzureManager.Web.Tests.pdb
+C:\Development\Personal\Azure Manager\AzureManager\AzureManager.Web.Tests\bin\Debug\AzureManager.Web.dll
+C:\Development\Personal\Azure Manager\AzureManager\AzureManager.Web.Tests\bin\Debug\EntityFramework.dll
+C:\Development\Personal\Azure Manager\AzureManager\AzureManager.Web.Tests\bin\Debug\AzureManager.Common.Data.dll
+C:\Development\Personal\Azure Manager\AzureManager\AzureManager.Web.Tests\bin\Debug\AzureManager.Web.pdb
+C:\Development\Personal\Azure Manager\AzureManager\AzureManager.Web.Tests\bin\Debug\EntityFramework.xml
+C:\Development\Personal\Azure Manager\AzureManager\AzureManager.Web.Tests\bin\Debug\AzureManager.Common.Data.pdb
+C:\Development\Personal\Azure Manager\AzureManager\AzureManager.Web.Tests\obj\Debug\AzureManager.Web.Tests.dll
+C:\Development\Personal\Azure Manager\AzureManager\AzureManager.Web.Tests\obj\Debug\AzureManager.Web.Tests.pdb
