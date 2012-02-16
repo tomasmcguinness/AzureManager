@@ -1,16 +1,16 @@
-﻿<xapCache source="C:\Development\Personal\Azure Manager\AzureManager\AzureManager\Bin\Debug\AzureManager.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="16/02/2012 12:05:19">
-  <file source="C:\Development\Personal\Azure Manager\AzureManager\AzureManager\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="06/02/2012 12:47:06" />
-  <file source="C:\Development\Personal\Azure Manager\AzureManager\AzureManager\Background.png" archivePath="Background.png" lastWriteTime="14/10/2011 10:07:50" />
-  <file source="C:\Development\Personal\Azure Manager\AzureManager\AzureManager\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="14/10/2011 10:07:50" />
-  <file source="C:\Development\Personal\Azure Manager\AzureManager\AzureManager\obj\Debug\AzureManager.dll" archivePath="AzureManager.dll" lastWriteTime="16/02/2012 12:05:18" />
-  <file source="C:\Development\Personal\Azure Manager\AzureManager\AzureManager.Common.Data\Bin\Debug\AzureManager.Common.Data.dll" archivePath="AzureManager.Common.Data.dll" lastWriteTime="06/02/2012 12:49:31" />
+﻿<xapCache source="C:\Development\Personal\AzureManager\AzureManager\Bin\Debug\AzureManager.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="16/02/2012 12:37:12">
+  <file source="C:\Development\Personal\AzureManager\AzureManager\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="06/02/2012 12:47:06" />
+  <file source="C:\Development\Personal\AzureManager\AzureManager\Background.png" archivePath="Background.png" lastWriteTime="14/10/2011 10:07:50" />
+  <file source="C:\Development\Personal\AzureManager\AzureManager\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="14/10/2011 10:07:50" />
+  <file source="C:\Development\Personal\AzureManager\AzureManager\obj\Debug\AzureManager.dll" archivePath="AzureManager.dll" lastWriteTime="16/02/2012 12:37:11" />
+  <file source="C:\Development\Personal\AzureManager\AzureManager.Common.Data\Bin\Debug\AzureManager.Common.Data.dll" archivePath="AzureManager.Common.Data.dll" lastWriteTime="06/02/2012 12:49:31" />
   <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v7.1\Libraries\Silverlight\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="15/09/2011 15:36:26" />
   <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v7.1\Toolkit\Aug11\Bin\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="12/08/2011 18:19:16" />
-  <file source="C:\Development\Personal\Azure Manager\AzureManager\AzureManager\Icons\appbar.add.png" archivePath="Icons\appbar.add.png" lastWriteTime="14/10/2011 10:07:50" />
-  <file source="C:\Development\Personal\Azure Manager\AzureManager\AzureManager\Icons\appbar.alert.png" archivePath="Icons\appbar.alert.png" lastWriteTime="14/10/2011 10:07:50" />
-  <file source="C:\Development\Personal\Azure Manager\AzureManager\AzureManager\Icons\appbar.check.png" archivePath="Icons\appbar.check.png" lastWriteTime="14/10/2011 10:07:50" />
-  <file source="C:\Development\Personal\Azure Manager\AzureManager\AzureManager\Icons\appbar.close.png" archivePath="Icons\appbar.close.png" lastWriteTime="14/10/2011 10:07:50" />
-  <file source="C:\Development\Personal\Azure Manager\AzureManager\AzureManager\Icons\appbar.disk.png" archivePath="Icons\appbar.disk.png" lastWriteTime="18/10/2011 16:12:44" />
-  <file source="C:\Development\Personal\Azure Manager\AzureManager\AzureManager\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="14/10/2011 10:07:50" />
-  <file source="C:\Development\Personal\Azure Manager\AzureManager\AzureManager\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="06/02/2012 12:45:30" />
+  <file source="C:\Development\Personal\AzureManager\AzureManager\Icons\appbar.add.png" archivePath="Icons\appbar.add.png" lastWriteTime="14/10/2011 10:07:50" />
+  <file source="C:\Development\Personal\AzureManager\AzureManager\Icons\appbar.alert.png" archivePath="Icons\appbar.alert.png" lastWriteTime="14/10/2011 10:07:50" />
+  <file source="C:\Development\Personal\AzureManager\AzureManager\Icons\appbar.check.png" archivePath="Icons\appbar.check.png" lastWriteTime="14/10/2011 10:07:50" />
+  <file source="C:\Development\Personal\AzureManager\AzureManager\Icons\appbar.close.png" archivePath="Icons\appbar.close.png" lastWriteTime="14/10/2011 10:07:50" />
+  <file source="C:\Development\Personal\AzureManager\AzureManager\Icons\appbar.disk.png" archivePath="Icons\appbar.disk.png" lastWriteTime="18/10/2011 16:12:44" />
+  <file source="C:\Development\Personal\AzureManager\AzureManager\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="14/10/2011 10:07:50" />
+  <file source="C:\Development\Personal\AzureManager\AzureManager\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="06/02/2012 12:45:30" />
 </xapCache>

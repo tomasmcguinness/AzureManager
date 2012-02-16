@@ -107,7 +107,7 @@ namespace AzureManager.Web.Controllers
       {
         certificate = new X509Certificate2(contentArray, certificatePassword, X509KeyStorageFlags.DefaultKeySet);
       }
-      catch (Exception exp)
+      catch (Exception)
       {
         throw;
       }
@@ -122,52 +122,54 @@ namespace AzureManager.Web.Controllers
       Stream responseStream = null;
       StreamReader reader = null;
 
-      // URI variable.
-      Uri requestUri = null;
-
-      // The ID for the Windows Azure subscription.
-      string requestedUrl = requestParameters["managementUrl"];
-
-      // Create the request.
-      requestUri = new Uri(requestedUrl);
-
-      httpWebRequest = (HttpWebRequest)HttpWebRequest.Create(requestUri);
-      httpWebRequest.Method = "GET";
-      httpWebRequest.ClientCertificates.Add(certificate);
-
-      // Specify the version information in the header.
-      httpWebRequest.Headers.Add("x-ms-version", "2011-10-01");
-
       try
       {
-        // Make the call using the web request.
-        httpWebResponse = (HttpWebResponse)httpWebRequest.GetResponse();
+        // URI variable.
+        Uri requestUri = null;
+
+        // The ID for the Windows Azure subscription.
+        string requestedUrl = requestParameters["managementUrl"];
+
+        // Create the request.
+        requestUri = new Uri(requestedUrl);
+
+        httpWebRequest = (HttpWebRequest)HttpWebRequest.Create(requestUri);
+        httpWebRequest.Method = "GET";
+        httpWebRequest.ClientCertificates.Add(certificate);
+
+        // Specify the version information in the header.
+        httpWebRequest.Headers.Add("x-ms-version", "2011-10-01");
+
+        try
+        {
+          // Make the call using the web request.
+          httpWebResponse = (HttpWebResponse)httpWebRequest.GetResponse();
+        }
+        catch (WebException exp)
+        {
+          throw;
+        }
+
+        // Display the web response status code.
+        Console.WriteLine("Response status code: " + httpWebResponse.StatusCode);
+
+        // Display the request ID returned by Windows Azure.
+        if (null != httpWebResponse.Headers)
+        {
+          Console.WriteLine("x-ms-request-id: " + httpWebResponse.Headers["x-ms-request-id"]);
+        }
+
+        // Parse the web response.
+        responseStream = httpWebResponse.GetResponseStream();
+
+        return responseStream;
       }
-      catch (WebException exp)
+      finally
       {
-        //WebOperationContext.Current.OutgoingResponse.StatusCode = httpWebResponse.StatusCode;
-        //return httpWebResponse.GetResponseStream();
-        throw;
+        if (httpWebResponse != null) httpWebResponse.Close();
+        if (responseStream != null) responseStream.Close();
+        if (reader != null) reader.Close();
       }
-
-      // Display the web response status code.
-      Console.WriteLine("Response status code: " + httpWebResponse.StatusCode);
-
-      // Display the request ID returned by Windows Azure.
-      if (null != httpWebResponse.Headers)
-      {
-        Console.WriteLine("x-ms-request-id: "
-        + httpWebResponse.Headers["x-ms-request-id"]);
-      }
-
-      // Parse the web response.
-      responseStream = httpWebResponse.GetResponseStream();
-
-      return responseStream;
-
-      httpWebResponse.Close();
-      responseStream.Close();
-      reader.Close();
     }
   }
 }

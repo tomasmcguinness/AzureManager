@@ -3,3 +3,8 @@ C:\Development\Personal\Azure Manager\AzureManager\AzureManager.Tools.Console\bi
 C:\Development\Personal\Azure Manager\AzureManager\AzureManager.Tools.Console\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Development\Personal\Azure Manager\AzureManager\AzureManager.Tools.Console\obj\x86\Debug\AzureManager.Tools.Console.exe
 C:\Development\Personal\Azure Manager\AzureManager\AzureManager.Tools.Console\obj\x86\Debug\AzureManager.Tools.Console.pdb
+C:\Development\Personal\AzureManager\AzureManager.Tools.Console\bin\Debug\AzureManager.Tools.Console.exe
+C:\Development\Personal\AzureManager\AzureManager.Tools.Console\bin\Debug\AzureManager.Tools.Console.pdb
+C:\Development\Personal\AzureManager\AzureManager.Tools.Console\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\Personal\AzureManager\AzureManager.Tools.Console\obj\x86\Debug\AzureManager.Tools.Console.exe
+C:\Development\Personal\AzureManager\AzureManager.Tools.Console\obj\x86\Debug\AzureManager.Tools.Console.pdb

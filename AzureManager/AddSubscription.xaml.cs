@@ -22,13 +22,7 @@ namespace AzureManager
             InitializeComponent();
 
             AddSubscriptionViewModel model = new AddSubscriptionViewModel();
-            model.SubscriptionReceived += new EventHandler(model_SubscriptionReceived);
             DataContext = model;
-        }
-
-        void model_SubscriptionReceived(object sender, EventArgs e)
-        {
-
         }
     }
 }

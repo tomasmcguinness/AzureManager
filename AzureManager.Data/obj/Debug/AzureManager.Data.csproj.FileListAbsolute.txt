@@ -3,3 +3,8 @@ C:\Development\Personal\Azure Manager\AzureManager\AzureManager.Data\bin\Debug\A
 C:\Development\Personal\Azure Manager\AzureManager\AzureManager.Data\obj\Debug\ResolveAssemblyReference.cache
 C:\Development\Personal\Azure Manager\AzureManager\AzureManager.Data\obj\Debug\AzureManager.Data.dll
 C:\Development\Personal\Azure Manager\AzureManager\AzureManager.Data\obj\Debug\AzureManager.Data.pdb
+C:\Development\Personal\AzureManager\AzureManager.Data\bin\Debug\AzureManager.Data.dll
+C:\Development\Personal\AzureManager\AzureManager.Data\bin\Debug\AzureManager.Data.pdb
+C:\Development\Personal\AzureManager\AzureManager.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Personal\AzureManager\AzureManager.Data\obj\Debug\AzureManager.Data.dll
+C:\Development\Personal\AzureManager\AzureManager.Data\obj\Debug\AzureManager.Data.pdb
