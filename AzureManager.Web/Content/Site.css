@@ -1,97 +1,107 @@
 body
 {
-    font-size: 16px;
-    font-family: "Segoe UI" , Verdana, Helvetica, Sans-Serif;
-    color: #232323;
-    background-color: #fff;
+  font-size: 16px;
+  font-family: "Segoe UI" , Verdana, Helvetica, Sans-Serif;
+  color: #232323;
+  background-color: #fff;
 }
 
 #main
 {
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #main h2
 {
-    font-size: 32px;
-    font-weight: normal;
+  font-size: 32px;
+  font-weight: normal;
 }
 
 button
 {
-    background-color: Navy;
-    color: White;
-    border: 0px;
-    padding: 8px;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 18px;
-    cursor: pointer;
+  background-color: Navy;
+  color: White;
+  border: 0px;
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 18px;
+  border: 1px solid navy;
 }
+
+button:hover
+{
+  background-color: #FFFFFF;
+  color: Navy;
+  border: 1px solid navy;
+  cursor: pointer;
+}
+
 header, footer, nav, section
 {
-    display: block;
+  display: block;
 }
 
-/* Styles for basic forms
------------------------------------------------------------*/
-
-fieldset
+.footer
 {
-    border: 1px solid #ddd;
-    padding: 0 1.4em 1.4em 1.4em;
-    margin: 0 0 1.5em 0;
+  margin-top: 40px;
 }
-
-legend
-{
-    font-size: 1.2em;
-    font-weight: bold;
-}
-
-textarea
-{
-    min-height: 75px;
-}
-
-.editor-label
-{
-    margin: 1em 0 0 0;
-}
-
-.editor-field
-{
-    margin: 0.5em 0 0 0;
-}
-
 
 /* Styles for validation helpers
 -----------------------------------------------------------*/
 .field-validation-error
 {
-    color: #ff0000;
+  color: #ff0000;
 }
 
 .field-validation-valid
 {
-    display: none;
+  display: none;
 }
 
 .input-validation-error
 {
-    border: 1px solid #ff0000;
-    background-color: #ffeeee;
+  border: 1px solid #ff0000;
+  background-color: #ffeeee;
 }
 
 .validation-summary-errors
 {
-    font-weight: bold;
-    color: #ff0000;
+  font-weight: bold;
+  color: #ff0000;
 }
 
 .validation-summary-valid
 {
-    display: none;
+  display: none;
+}
+
+.step
+{
+  background-color: Navy;
+  color: #FFFFFF;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-right: 15px;
+}
+
+label
+{
+  display: block;
+  width: 150px;
+  float: left;
+}
+
+input
+{
+  padding: 5px;
+}
+
+button.large
+{
+  width: 397px;
 }

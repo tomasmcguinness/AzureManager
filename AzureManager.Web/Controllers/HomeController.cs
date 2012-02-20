@@ -14,12 +14,17 @@ namespace AzureManager.Web.Controllers
   {
     public ActionResult Index()
     {
+      return View();
+    }
+
+    public ActionResult AccessCode()
+    {
       RegistrationCheck check = new RegistrationCheck();
       return View(check);
     }
 
     [HttpPost]
-    public ActionResult Index(RegistrationCheck check)
+    public ActionResult AccessCode(RegistrationCheck check)
     {
       RegistrationModel model = new RegistrationModel();
       string pinCode = GetPin(check);

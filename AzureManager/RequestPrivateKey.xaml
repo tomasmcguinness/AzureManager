@@ -24,14 +24,14 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock x:Name="ApplicationTitle" Text="ENTER PRIVATE KEY" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="ApplicationTitle" Text="FETCH SUBSCRIPTION INFO" Style="{StaticResource PhoneTextNormalStyle}"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
         <StackPanel x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <TextBlock Text="subscription ID" Style="{StaticResource PhoneTextTitle2Style}" />
-            <TextBlock Text="{Binding Path=SubscriptionId}" Style="{StaticResource PhoneTextSubtleStyle}" />
-            <TextBlock Text="management Certificate Key" Style="{StaticResource PhoneTextTitle2Style}" />
+            <TextBlock Text="subscription id" Style="{StaticResource PhoneTextTitle2Style}" />
+            <TextBlock Text="{Binding Path=SubscriptionId, FallbackValue=00000000-0000-0000-000000000000}" Style="{StaticResource PhoneTextSubtleStyle}" />
+            <TextBlock Text="certificate private key" Style="{StaticResource PhoneTextTitle2Style}" />
             <TextBox Text="{Binding Path=CertificatePassword}" />
         </StackPanel>
     </Grid>

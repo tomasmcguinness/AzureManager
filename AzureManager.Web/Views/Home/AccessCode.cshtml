@@ -1,0 +1,25 @@
+﻿@{
+  ViewBag.Title = "register";
+}
+<h2>
+  <div class="step">
+    2</div>
+  Enter your access code</h2>
+<p>
+  Please enter the six digit access code displayed by the app. We will check this
+  code to ensure it's valid and that it hasn't been used before.</p>
+@using (Html.BeginForm())
+{
+  <div id="pinDiv" style="width: 500px; height: 100px; margin-left: auto; margin-right: auto;">
+    @Html.TextBoxFor(m => m.PinDigit1, new { onkeyup = "return nextField(this);", onfocus = "selectText(this)" })
+    @Html.TextBoxFor(m => m.PinDigit2, new { onkeyup = "return nextField(this);", onfocus = "selectText(this)" })
+    @Html.TextBoxFor(m => m.PinDigit3, new { onkeyup = "return nextField(this);", onfocus = "selectText(this)" })
+    @Html.TextBoxFor(m => m.PinDigit4, new { onkeyup = "return nextField(this);", onfocus = "selectText(this)" })
+    @Html.TextBoxFor(m => m.PinDigit5, new { onkeyup = "return nextField(this);", onfocus = "selectText(this)" })
+    @Html.TextBoxFor(m => m.PinDigit6, new { onkeyup = "return nextField(this);", onfocus = "selectText(this)" })
+  </div>
+  <div style="clear: both; height: 0px;">
+    &nbsp;</div>
+  <button type="submit" style="float: right;">
+    Check this code</button>
+}

@@ -19,7 +19,8 @@ namespace AzureManager
 {
     public partial class App : Application
     {
-        public static string ServiceHostName = "www.azuremanager.com";
+        //public static string ServiceHostName = "www.azuremanager.com";
+        public static string ServiceHostName = "localhost:90";
 
         /// <summary>
         /// Provides easy access to the root frame of the Phone Application.

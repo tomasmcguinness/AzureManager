@@ -1,16 +1,18 @@
 ﻿@model AzureManager.Web.Models.DeviceRegistration
 @{
-	ViewBag.Title = "Information";
+  ViewBag.Title = "Information";
 }
 <h2>
-	Information successfully sent</h2>
+  <div class="step">
+    3</div>
+  Information successfully sent</h2>
 <p>
-	We have successfully sent the notification to your device. Please check your device
-	now. It should inform you that new subscription information is available. Please
-	follow the steps. At this stage you will need to enter the password for your management
-	certificate.</p>
+  We have successfully sent the notification to your device. Please check your device
+  now. It should inform you that new subscription information is available. Please
+  follow the steps. At this stage you will need to enter the password for your management
+  certificate.</p>
 <p>
-	If you have no received the notification within five minutes, please start again.
-	Unfortunately we cannot control the delivery of these notifications and they can
-	prove to be unpredicatable.</p>
+  If you have no received the notification within five minutes, please start again.
+  Unfortunately we cannot control the delivery of these notifications and they can
+  prove to be unpredicatable.</p>
 @Html.ActionLink("start again", "Index")
